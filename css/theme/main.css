@@ -84,7 +84,7 @@ footer .char.char2{
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   header{
     padding: 20px 5px;
   }
