@@ -7,7 +7,7 @@ $(function(){
   ];
 
   for (var i = 0; i < pictures.length; i++) {
-    var $node = "<div class='col-lg-3 col-12'><img class='pic' src="+pictures[i]+"></div>";
+    var $node = "<div class='col-lg-3 col-6'><img class='pic' src="+pictures[i]+"></div>";
     $('#here').append($node);
   }
   //set gallery END
