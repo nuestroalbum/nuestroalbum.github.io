@@ -1,0 +1,101 @@
+@font-face {
+ font-family:tfgx;
+ src:url(https://use.typekit.net/pf/hi/tfgx/n4/l?subset_id=1&fvd=n4&ec_token=f3oJY%2FM01UJrzteb2bruW%2FcUJKCtYImSFZvvFg57ZSmqmLsK3kNT%2BQG2e%2F9lARfKWQOpVR6YI8OTWLNLszSYyjIxWuOpZiYPalsz3dFtYDU%3D) format("woff2"),
+ url(https://use.typekit.net/pf/hi/tfgx/n4/d?subset_id=1&fvd=n4&ec_token=f3oJY%2FM01UJrzteb2bruW%2FcUJKCtYImSFZvvFg57ZSmqmLsK3kNT%2BQG2e%2F9lARfKWQOpVR6YI8OTWLNLszSYyjIxWuOpZiYPalsz3dFtYDU%3D) format("woff"),
+ url(https://use.typekit.net/pf/hi/tfgx/n4/a?subset_id=1&fvd=n4&ec_token=f3oJY%2FM01UJrzteb2bruW%2FcUJKCtYImSFZvvFg57ZSmqmLsK3kNT%2BQG2e%2F9lARfKWQOpVR6YI8OTWLNLszSYyjIxWuOpZiYPalsz3dFtYDU%3D) format("opentype");
+ font-weight:400;
+ font-style:normal;
+}
+
+body{
+  background-image: url('../../images/pattern.png');
+}
+header{
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+  font-family: tfgx;
+}
+header h1{
+  color: #ebc033;
+  text-shadow: 2px 2px 0px #424242;
+  font-size: 50px;
+}
+.pic-container{
+  padding: 20px;
+}
+.pic{
+  border: 5px solid #fff;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 3px #000;
+  width: 100%;
+  transition: .2s all;
+  cursor: pointer;
+}
+.pic:hover{
+  transform: scale(1.05);
+}
+.noscroll{
+  overflow: hidden;
+}
+.gallery{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.6);
+  padding: 50px;
+}
+.gallery .main{
+  width: 60%;
+  margin: auto;
+  display: block;
+  border: 5px solid #fff;
+}
+.gallery .close{
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+footer{
+  padding: 60px;
+  background-color: #FDD10A;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 100%;
+}
+footer .char{
+  width: 100px;
+  position: absolute;
+  bottom: 10px;
+}
+footer .char.char1{
+  left: 40px;
+}
+footer .char.char2{
+  right: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  header{
+    padding: 20px 5px;
+  }
+  .pic-container{
+    padding-bottom: 200px;
+  }
+  .gallery{
+    padding: 5px;
+    padding-top: 100px;
+  }
+  .gallery .main {
+    width: 100%;
+  }
+}
