@@ -70,6 +70,7 @@ footer{
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   width: 100%;
+  border-top: 5px solid #fff;
 }
 footer .char{
   width: 100px;
