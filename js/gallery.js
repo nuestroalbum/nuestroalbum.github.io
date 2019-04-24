@@ -1,6 +1,9 @@
 $(function(){
   //set gallery
   var pictures = [
+    "album/10.jpg",
+    "album/9.jpg",
+    "album/8.jpg",
     "album/7.jpg",
     "album/6.jpg",
     "album/5.jpg",
